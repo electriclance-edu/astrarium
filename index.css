@@ -1,0 +1,31 @@
+body {
+  margin:0;
+  overflow:hidden;
+}
+p {
+  font-family:monospace;
+  font-size:20px;
+  color:white;
+  margin:0;
+}
+.passThrough {
+  pointer-events:none;
+  opacity:0.5;
+}
+.absCentered {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+/* /////////////////////////// */
+.controls {
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  text-align:right;
+  font-weight:bold;
+}
+.pointer {
+  position:absolute;
+}
